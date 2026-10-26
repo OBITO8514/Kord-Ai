@@ -38,6 +38,6 @@ module.exports = {
     STARTUP_MSG: process.env.STARTUP_MSG || "on",
     ANTI_EDIT: process.env.ANTI_EDIT || "off",
     ANTI_EDIT_IN_CHAT: process.env.ANTI_EDIT_IN_CHAT || "off",
-    WARNCOUNT: process.env.WARNCOUNT || "4",
-    MENU_IMAGE: process.env.MENU_IMAGE || ""
+    MENU_IMAGE: process.env.MENU_IMAGE || "",
+    RENDER_API_KEY: process.env.RENDER_API_KEY || ''
 }
